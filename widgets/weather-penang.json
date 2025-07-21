@@ -1,0 +1,19 @@
+{
+  "id": "weather-penang",
+  "title": "Weather in Penang, Malaysia",
+  "description": "Get the weather information of Penang, Malaysia",
+  "apiUrl": "https://api.weatherstack.com/current?access_key=bd3a53dc8152d3652eba3c083a795a3f&query=Penang+Malaysia",
+  "backgroundColor": "#1e293b",
+  "textColor": "#ffffff",
+  "author": "Chee Yong",
+  "category": "Weather",
+  "refreshInterval": 5000,
+  "fields": [
+    {
+      "label": "Temperature",
+      "key": "current.temperature",
+      "type": "number"
+    },
+    { "label": "Humidity", "key": "current.humidity", "type": "number" }
+  ]
+}

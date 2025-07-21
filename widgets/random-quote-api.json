@@ -1,0 +1,12 @@
+{
+  "id": "random-quote-api",
+  "title": "Random Quote API",
+  "description": "Display a random quote and the author",
+  "apiUrl": "https://leecheeyong.vercel.app/quote",
+  "backgroundColor": "#3B82F6",
+  "textColor": "#ffffff",
+  "author": "Chee Yong",
+  "category": "Random",
+  "refreshInterval": 5000,
+  "fields": [{ "label": "Quote", "key": "content", "type": "text" }]
+}

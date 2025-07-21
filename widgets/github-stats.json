@@ -1,0 +1,15 @@
+{
+  "id": "github-stats",
+  "title": "Github Repository Stats",
+  "description": "Monitor your GitHub repository statistics and activity",
+  "apiUrl": "https://api.github.com/repos/leecheeyong/community-widgets",
+  "backgroundColor": "#1e293b",
+  "textColor": "#ffffff",
+  "author": "Chee Yong",
+  "category": "Developer",
+  "refreshInterval": 5000,
+  "fields": [
+    { "label": "Stars", "key": "stargazers_count", "type": "number" },
+    { "label": "Forks", "key": "forks", "type": "number" }
+  ]
+}

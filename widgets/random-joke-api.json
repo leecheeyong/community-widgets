@@ -1,0 +1,15 @@
+{
+  "id": "random-joke-api",
+  "title": "Random Joke API",
+  "description": "Display a random joke",
+  "apiUrl": "https://official-joke-api.appspot.com/random_joke",
+  "backgroundColor": "#2e3b94",
+  "textColor": "#ffffff",
+  "author": "Chee Yong",
+  "category": "Random",
+  "refreshInterval": 5000,
+  "fields": [
+    { "label": "Setup", "key": "setup", "type": "text" },
+    { "label": "Punchline", "key": "punchline", "type": "text" }
+  ]
+}

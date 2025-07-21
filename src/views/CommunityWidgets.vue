@@ -2,14 +2,13 @@
   <div class="min-h-screen bg-gray-50">
     <header class="bg-white border-b border-gray-100">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6">
-          <div class="flex items-center justify-center sm:justify-start gap-4 text-center sm:text-left">
-            <img
-              src="/icon.png"
-              alt="Logo"
-              loading="lazy"
-              class="w-10 h-10"
-            />
+        <div
+          class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6"
+        >
+          <div
+            class="flex items-center justify-center sm:justify-start gap-4 text-center sm:text-left"
+          >
+            <img src="/icon.png" alt="Logo" loading="lazy" class="w-10 h-10" />
             <div>
               <h1
                 class="text-3xl font-bold text-gray-900 mb-1 flex items-center gap-2"
@@ -184,9 +183,7 @@ const getFieldValue = (widget, field) => {
   for (const key of keys) {
     value = value?.[key];
   }
-  return value !== undefined && value !== null
-    ? value
-    : field.type
+  return value !== undefined && value !== null ? value : field.type;
 };
 </script>
 
