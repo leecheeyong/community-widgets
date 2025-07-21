@@ -71,8 +71,18 @@
             </button>
             <button class="btn-secondary">
               <div class="flex items-center gap-2">
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6m16 0v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6m16 0H4" />
+                <svg
+                  class="w-5 h-5"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M20 13V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v6m16 0v6a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-6m16 0H4"
+                  />
                 </svg>
                 View Community Widgets
               </div>
@@ -215,7 +225,8 @@
             Make API Data Visualization Effortless
           </h2>
           <p class="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
-            Create custom widgets, install community widgets, and personalize your dashboard
+            Create custom widgets, install community widgets, and personalize
+            your dashboard
           </p>
         </div>
 
