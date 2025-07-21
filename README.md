@@ -1,4 +1,4 @@
-<img width="150" src="/public/icon.png">
+<img width="100" src="/public/icon.png">
 
 # [Custom API Dashboard Community](https://cad.dino.icu/community)
 
