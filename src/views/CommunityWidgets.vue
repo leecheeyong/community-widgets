@@ -8,7 +8,7 @@
               src="/icon.png"
               alt="Logo"
               loading="lazy"
-              class="w-10 h-10 rounded-full shadow"
+              class="w-10 h-10"
             />
             <div>
               <h1
