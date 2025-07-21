@@ -1,4 +1,4 @@
-# Custom API Dashboard Community
+# [Custom API Dashboard Community](https://cad.dino.icu/community)
 
 A landing page for the [Custom API Dashboard App](https://github.com/leecheeyong/custom_api_dashboard_app) and a place for the community widgets library
 
