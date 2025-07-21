@@ -17,9 +17,9 @@ A landing page for the [Custom API Dashboard App](https://github.com/leecheeyong
   "backgroundColor": "#1e293b",
   "textColor": "#ffffff",
   "author": "Your Name",
-  "category": "Developer", // Weather, Finance, Lifestyle, Developer, News, Entertainment
-  "refreshInterval": 5000, // custom refresh preset in ms
-  "fields": [ // data fields
+  "category": "Developer, Weather, Finance, Lifestyle, Developer, News, Entertainment",
+  "refreshInterval": 5000,
+  "fields": [
     { "label": "Stars", "key": "stargazers_count", "type": "number" }, 
     { "label": "Forks", "key": "forks", "type": "number" }
   ]
