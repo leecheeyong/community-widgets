@@ -14,3 +14,4 @@ for (const file of files) {
 }
 
 fs.writeFileSync("./widgets.json", JSON.stringify(widgets), "utf-8");
+console.log("Widgets updated successfully.", widgets.length, "widgets found.");
