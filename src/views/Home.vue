@@ -342,15 +342,20 @@
           >MIT License</a
         >
       </p>
+      <p class="mt-1">
+        <router-link to="/privacy" class="text-blue-600 hover:underline"
+          >Privacy Policy</router-link
+        >
+      </p>
     </footer>
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 
 const currentSlide = ref(0);
-let autoSlideInterval: number | null = null;
+let autoSlideInterval = null;
 
 const nextSlide = () => {
   currentSlide.value = (currentSlide.value + 1) % 6;

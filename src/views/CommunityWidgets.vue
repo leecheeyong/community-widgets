@@ -184,6 +184,11 @@
         >MIT License</a
       >
     </p>
+    <p class="mt-1">
+      <router-link to="/privacy" class="text-blue-600 hover:underline"
+        >Privacy Policy</router-link
+      >
+    </p>
   </footer>
 </template>
 

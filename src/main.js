@@ -4,6 +4,7 @@ import App from "./App.vue";
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "./views/Home.vue";
 import CommunityWidgets from "./views/CommunityWidgets.vue";
+import PrivacyPolicy from "./views/PrivacyPolicy.vue";
 
 const routes = [
   {
@@ -15,6 +16,11 @@ const routes = [
     path: "/community",
     name: "Community Widgets",
     component: CommunityWidgets,
+  },
+  {
+    path: "/privacy",
+    name: "Privacy Policy",
+    component: PrivacyPolicy,
   },
 ];
 

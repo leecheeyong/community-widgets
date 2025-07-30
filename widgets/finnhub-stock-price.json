@@ -7,7 +7,7 @@
   "textColor": "#424242",
   "author": "Chee Yong",
   "category": "Finance",
-  "refreshInterval": 15000,
+  "refreshInterval": 25000,
   "fields": [
     { "label": "Price", "key": "c", "type": "number" },
     { "label": "Change", "key": "d", "type": "number" },
