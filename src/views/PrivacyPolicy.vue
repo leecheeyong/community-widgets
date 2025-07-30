@@ -166,7 +166,7 @@
             <a
               href="mailto:tojoeleeofficial@gmail.com"
               class="text-blue-600 hover:underline"
-              >tojoeleeofficial@gmail.com</a
+              > tojoeleeofficial@gmail.com</a
             >
           </li>
           <li>
@@ -175,7 +175,7 @@
               href="https://joe.js.org"
               target="_blank"
               class="text-blue-600 hover:underline"
-              >https://joe.js.org</a
+              > https://joe.js.org</a
             >
           </li>
         </ul>
