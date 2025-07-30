@@ -1,0 +1,20 @@
+{
+  "id": "finnhub-stock-price",
+  "title": "AAPL Stock Price - Finnhub",
+  "description": "Get the latest stock price for Apple Inc. (AAPL) using Finnhub API",
+  "apiUrl": "https://finnhub.io/api/v1/quote?symbol=AAPL&token=d24tv7pr01qu2jgk1prgd24tv7pr01qu2jgk1ps0",
+  "backgroundColor": "#f7c53b",
+  "textColor": "#424242",
+  "author": "Chee Yong",
+  "category": "Finance",
+  "refreshInterval": 15000,
+  "fields": [
+    { "label": "Price", "key": "c", "type": "number" },
+    { "label": "Change", "key": "d", "type": "number" },
+    { "label": "Percent Change", "key": "dp", "type": "number" },
+    { "label": "High Price Of The Day", "key": "h", "type": "number" },
+    { "label": "Low Price Of The Day", "key": "l", "type": "number" },
+    { "label": "Open Price Of The Day", "key": "o", "type": "number" },
+    { "label": "Close Price Of The Day", "key": "pc", "type": "number" }
+  ]
+}
