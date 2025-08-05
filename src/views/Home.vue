@@ -41,7 +41,9 @@
           <div
             class="flex flex-col lg:flex-row gap-4 justify-center items-center mb-16 w-full max-w-2xl mx-auto"
           >
-            <button
+            <a
+              href="https://hc-cdn.hel1.your-objectstorage.com/s/v3/60ec348cca6467b4e721e1898c1710f66b7b0c99_application-f6c6ea8d-51b7-462c-9e3e-c587d15f22dc.apk"
+              target="_blank"
               class="w-full lg:w-auto px-6 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold shadow hover:scale-105 hover:shadow-lg transition-all duration-200"
             >
               <div class="flex items-center justify-center gap-3">
@@ -58,7 +60,7 @@
                 </svg>
                 Download for Android
               </div>
-            </button>
+            </a>
             <router-link
               to="/community"
               class="w-full lg:w-auto px-6 py-4 rounded-xl bg-gray-100 text-gray-900 font-semibold shadow hover:bg-gray-200 hover:scale-105 transition-all duration-200"
